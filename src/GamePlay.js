@@ -38,17 +38,17 @@ GamePlayManager = {
 
     },
     preload: function(){
-        game.load.image('fondo','assets/image/fondo3.png');
-       game.load.spritesheet('troya','assets/image/troyas3.png',84, 130, 2);
-       game.load.spritesheet('galletas','assets/image/Galletas2.png',81,84,4);
-       game.load.spritesheet('explosion','assets/image/explosion.png');
-       game.load.spritesheet('nubes','assets/image/nubes.png');
-       game.load.spritesheet('gato','assets/image/gato.png');
+        game.load.image('fondo','../assets/image/fondo3.png');
+       game.load.spritesheet('troya','../assets/image/troyas3.png',84, 130, 2);
+       game.load.spritesheet('galletas','../assets/image/Galletas2.png',81,84,4);
+       game.load.spritesheet('explosion','../assets/image/explosion.png');
+       game.load.spritesheet('nubes','../assets/image/nubes.png');
+       game.load.spritesheet('gato','../assets/image/gato.png');
 
-       game.load.audio('gameOver','assets/sounds/GameOver.mp3');
-       game.load.audio('congrats','assets/sounds/levelComplete.mp3');
-       game.load.audio('bite','assets/sounds/bite.mp3');
-       game.load.audio('music','assets/sounds/musicTroya.wav');
+       game.load.audio('gameOver','../assets/sounds/GameOver.mp3');
+       game.load.audio('congrats','../assets/sounds/levelComplete.mp3');
+       game.load.audio('bite','../assets/sounds/bite.mp3');
+       game.load.audio('music','../assets/sounds/musicTroya.wav');
     },
     create: function(){
         game.add.sprite(0,0,'fondo');
